@@ -100,3 +100,30 @@ section {
 #mission-item-3 {
   background-color: #f7ba7e;
 }
+
+/* about section  */
+.about-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.about {
+  display: flex;
+}
+.about-img img {
+  width: 400px;
+  height: 400px;
+}
+.about-details {
+  padding: 10px;
+}
+.about-details h1 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+.about-details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.about-details button {
+  margin: 10px 0;
+}
