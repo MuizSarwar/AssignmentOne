@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+section {
+  margin-bottom: 30px;
+}
 /* nav bar  */
 .header-section nav {
   background-color: black;
@@ -63,4 +65,38 @@
   border: none;
   background-color: #ff5959;
   color: white;
+}
+
+/* mission part  */
+.mission-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mission-container h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.mission-items-container {
+  display: flex;
+  margin-top: 10px;
+}
+.mission-item img {
+  width: 150px;
+  height: 150px;
+}
+.mission-item {
+  width: 100%;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+#mission-item-1 {
+  background-color: #6daab1;
+}
+#mission-item-2 {
+  background-color: #f87d7d;
+}
+#mission-item-3 {
+  background-color: #f7ba7e;
 }
