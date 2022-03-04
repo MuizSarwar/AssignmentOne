@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar  */
+.header-section nav {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.header-section nav div {
+  margin-right: 25px;
+}
+
+.header-section nav div a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ff5959;
+}
+/* nav bar end  */
